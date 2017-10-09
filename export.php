@@ -4,9 +4,7 @@ $connect = mysqli_connect("localhost", "root", "", "bdsona");
 $output = '';
 
 
-if(isset($_POST["export_reservation"]))
-{
-
+if(isset($_POST["export_reservation"])){
  $date_MaxRes = $_POST['dMaxRes'];
  $date_MaxRes = trim($date_MaxRes);
 
